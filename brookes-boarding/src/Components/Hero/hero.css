@@ -1,0 +1,65 @@
+.hero-full-screen {
+  height: 45vh;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background: url("../../Assets/logo3.png") center center no-repeat;
+  background-color: #ea82b870;
+  background-size: 100vh;
+}
+
+.hero-full-screen .middle-content-section {
+  text-align: center;
+  color: yellow;
+}
+
+.hero-full-screen .top-content-section {
+  width: 100%;
+}
+
+.hero-full-screen .bottom-content-section {
+  padding: 1rem;
+}
+
+.hero-full-screen .bottom-content-section svg {
+  height: 1.5rem;
+  width: 1.5rem;
+  fill: white;
+}
+
+.hero-full-screen .top-bar {
+  background: transparent;
+  background-color: blue;
+}
+
+.hero-full-screen .top-bar .menu {
+  background: transparent;
+  background-color: fuchsia;
+}
+
+.hero-full-screen .top-bar .menu-text {
+  color: orange;
+}
+
+.hero-full-screen .top-bar .menu li {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.hero-full-screen .top-bar .menu a {
+  color: purple;
+  font-weight: bold;
+}
