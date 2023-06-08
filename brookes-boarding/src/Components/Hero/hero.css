@@ -35,31 +35,3 @@
   width: 1.5rem;
   fill: white;
 }
-
-.hero-full-screen .top-bar {
-  background: transparent;
-  background-color: blue;
-}
-
-.hero-full-screen .top-bar .menu {
-  background: transparent;
-  background-color: fuchsia;
-}
-
-.hero-full-screen .top-bar .menu-text {
-  color: orange;
-}
-
-.hero-full-screen .top-bar .menu li {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.hero-full-screen .top-bar .menu a {
-  color: purple;
-  font-weight: bold;
-}
