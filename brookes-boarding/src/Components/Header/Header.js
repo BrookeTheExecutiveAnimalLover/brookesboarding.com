@@ -5,7 +5,7 @@ import classes from "./Header.css";
 class Header extends Component {
   render() {
     return (
-      <div className="container">
+      <div className="container, g-0">
         <div className="Header">
           <img src={logo2} height="90%" width="2.8%"></img>
           <div className="button-38">DEALS</div>
