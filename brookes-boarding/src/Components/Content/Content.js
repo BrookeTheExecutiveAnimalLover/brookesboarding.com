@@ -9,13 +9,15 @@ class Content extends Component {
           <div className="row g-0">
             <div className="col-md-4">
               <img
-                src="..."
+                src={require("../../Assets/koko.jpeg")}
                 className="img-fluid rounded-start"
                 alt="..."
+                width={550}
+                height={550}
               ></img>
             </div>
             <div className="col-md-8">
-              <div className="card-body">
+              <div className="card-body1">
                 <h5 className="card-title">Why I Do What I Do</h5>
                 <p className="card-text1">
                   At Brooke's Boarding, our passion for pets drives us to
@@ -41,8 +43,8 @@ class Content extends Component {
         </div>
         <div className="card mb-3" style={{ maxWidth: "100%" }}>
           <div className="row g-0">
-            <div className="col-md-8">
-              <div className="card-body">
+            <div id="card2" className="col-md-8">
+              <div className="card-body2">
                 <h5 className="card-title2">Read Testimonials</h5>
                 <p className="card-text2">
                   I understand that trusting someone with your furry family
@@ -68,17 +70,19 @@ class Content extends Component {
             </div>
             <div className="col-md-4">
               <img
-                src="..."
+                src={require("../../Assets/zoey.jpeg")}
                 className="img-fluid rounded-start"
                 alt="..."
+                width={550}
+                height={550}
               ></img>
             </div>
           </div>
         </div>
         <div className="card mb-3" style={{ maxWidth: "100%" }}>
           <div className="row g-0">
-            <div className="col-md-12">
-              <div className="card-body">
+            <div className="col-md-12, col3">
+              <div className="card-body3">
                 <h5 className="card-title3">Rates</h5>
                 <p className="card-text3">
                   This is a wider card with supporting text below as a natural
