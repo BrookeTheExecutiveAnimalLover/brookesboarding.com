@@ -11,7 +11,7 @@ class Content extends Component {
               <img
                 id="img1"
                 src={require("../../Assets/koko.jpeg")}
-                className="img-fluid rounded-start"
+                className="img-fluid rounded-end"
                 alt="..."
                 width={550}
                 height={550}
@@ -73,7 +73,7 @@ class Content extends Component {
               <img
                 id="img2"
                 src={require("../../Assets/zoey.jpeg")}
-                className="img-fluid rounded-start"
+                className="img-fluid rounded-end"
                 alt="..."
                 width={550}
                 height={550}
