@@ -18,7 +18,7 @@ class Content extends Component {
             </div>
             <div className="col-md-8">
               <div className="card-body1">
-                <h5 className="card-title">Why I Do What I Do</h5>
+                <h5 className="card-title1">Why I Do What I Do</h5>
                 <p className="card-text1">
                   At Brooke's Boarding, our passion for pets drives us to
                   provide blissful stays for your furry family members. Our
@@ -33,8 +33,8 @@ class Content extends Component {
                   they're away, knowing their pets are enjoying a blissful stay.
                 </p>
                 <p className="card-text">
-                  <button className="text-button1">
-                    Last updated 3 mins ago
+                  <button type="button" className="btn btn-dark">
+                    More about us
                   </button>
                 </p>
               </div>
@@ -62,8 +62,8 @@ class Content extends Component {
                   perfect place for your pet's stay.
                 </p>
                 <p className="card-text2">
-                  <button className="text-button2">
-                    Last updated 3 mins ago
+                  <button type="button" class="btn btn-light">
+                    More testimonials
                   </button>
                 </p>
               </div>
@@ -90,8 +90,8 @@ class Content extends Component {
                   longer.
                 </p>
                 <p className="card-text3">
-                  <button className="text-button3">
-                    Last updated 3 mins ago
+                  <button type="button" className="btn btn-dark">
+                    More
                   </button>
                 </p>
               </div>

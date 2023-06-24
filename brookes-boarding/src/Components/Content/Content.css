@@ -1,9 +1,22 @@
+* {
+  font-family: "EB Garamond", serif;
+}
+
+.card-title1 {
+  color: #ea82b7;
+  font-size: 32px;
+  font-weight: bolder;
+}
+
 .card-text2 {
   text-align: end;
 }
 
 .card-title2 {
   text-align: end;
+  font-size: 32px;
+  font-weight: bolder;
+  color: white;
 }
 
 #card2 {
@@ -16,4 +29,7 @@
 
 .card-title3 {
   text-align: center;
+  color: #ea82b7;
+  font-size: 32px;
+  font-weight: bolder;
 }
