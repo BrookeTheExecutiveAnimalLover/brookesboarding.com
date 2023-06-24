@@ -86,10 +86,19 @@ class Content extends Component {
             <div id="card3" className="col-md-12, col3">
               <div className="card-body3">
                 <h5 className="card-title3">Rates</h5>
-                <p className="card-text3">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                <p id="rate-card" className="card-text3">
+                  <div className="col1">
+                    <h5>Boarding</h5>
+                    <p>
+                      Dogs: Standard: $65 per night Additional Dog: +$50 per dog
+                      per night Cats: Standard: $40 per night Additional Cat:
+                      +$30 per cat per night
+                    </p>
+                  </div>
+                  <div className="col2">
+                    <h5>Daycare</h5>
+                    <p>Standard: $45 per day Additional Dog: +$35 per day</p>
+                  </div>
                 </p>
                 <p className="card-text3">
                   <button id="button3" type="button" className="btn btn-dark">
