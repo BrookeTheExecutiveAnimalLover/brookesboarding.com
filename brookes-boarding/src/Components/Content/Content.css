@@ -2,6 +2,13 @@
   font-family: "EB Garamond", serif;
 }
 
+#card1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fbfbfd;
+}
+
 .card-title1 {
   color: #ea82b7;
   font-size: 32px;
@@ -21,6 +28,16 @@
 
 #card2 {
   background-color: #ea82b870;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#card3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fbfbfd;
 }
 
 .card-text3 {

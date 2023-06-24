@@ -5,7 +5,7 @@ class Content extends Component {
   render() {
     return (
       <div>
-        <div className="card mb-3" style={{ maxWidth: "100%" }}>
+        <div className="card mb-3 border-0" style={{ maxWidth: "100%" }}>
           <div className="row g-0">
             <div className="col-md-4">
               <img
@@ -16,7 +16,7 @@ class Content extends Component {
                 height={550}
               ></img>
             </div>
-            <div className="col-md-8">
+            <div id="card1" className="col-md-8">
               <div className="card-body1">
                 <h5 className="card-title1">Why I Do What I Do</h5>
                 <p className="card-text1">
@@ -41,7 +41,7 @@ class Content extends Component {
             </div>
           </div>
         </div>
-        <div className="card mb-3" style={{ maxWidth: "100%" }}>
+        <div className="card mb-3 border-0" style={{ maxWidth: "100%" }}>
           <div className="row g-0">
             <div id="card2" className="col-md-8">
               <div className="card-body2">
@@ -79,9 +79,9 @@ class Content extends Component {
             </div>
           </div>
         </div>
-        <div className="card mb-3" style={{ maxWidth: "100%" }}>
+        <div className="card mb-3 border-0" style={{ maxWidth: "100%" }}>
           <div className="row g-0">
-            <div className="col-md-12, col3">
+            <div id="card3" className="col-md-12, col3">
               <div className="card-body3">
                 <h5 className="card-title3">Rates</h5>
                 <p className="card-text3">
