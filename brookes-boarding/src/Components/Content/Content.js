@@ -9,6 +9,7 @@ class Content extends Component {
           <div className="row g-0">
             <div className="col-md-4">
               <img
+                id="img1"
                 src={require("../../Assets/koko.jpeg")}
                 className="img-fluid rounded-start"
                 alt="..."
@@ -33,7 +34,7 @@ class Content extends Component {
                   they're away, knowing their pets are enjoying a blissful stay.
                 </p>
                 <p className="card-text">
-                  <button type="button" className="btn btn-dark">
+                  <button id="button1" type="button" className="btn btn-dark">
                     More about us
                   </button>
                 </p>
@@ -62,7 +63,7 @@ class Content extends Component {
                   perfect place for your pet's stay.
                 </p>
                 <p className="card-text2">
-                  <button type="button" class="btn btn-light">
+                  <button id="button2" type="button" class="btn btn-light">
                     More testimonials
                   </button>
                 </p>
@@ -70,6 +71,7 @@ class Content extends Component {
             </div>
             <div className="col-md-4">
               <img
+                id="img2"
                 src={require("../../Assets/zoey.jpeg")}
                 className="img-fluid rounded-start"
                 alt="..."
@@ -90,7 +92,7 @@ class Content extends Component {
                   longer.
                 </p>
                 <p className="card-text3">
-                  <button type="button" className="btn btn-dark">
+                  <button id="button3" type="button" className="btn btn-dark">
                     More
                   </button>
                 </p>

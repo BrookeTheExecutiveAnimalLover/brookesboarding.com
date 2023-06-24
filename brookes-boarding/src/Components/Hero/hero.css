@@ -15,6 +15,7 @@
   background: url("../../Assets/logo3.png") center center no-repeat;
   background-color: #ea82b870;
   background-size: 100vh;
+  margin-bottom: 15px;
 }
 
 .hero-full-screen .middle-content-section {

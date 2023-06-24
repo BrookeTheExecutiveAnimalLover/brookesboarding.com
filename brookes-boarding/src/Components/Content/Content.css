@@ -2,6 +2,10 @@
   font-family: "EB Garamond", serif;
 }
 
+#img1 {
+  margin-left: 15px;
+}
+
 #card1 {
   display: flex;
   align-items: center;
@@ -13,10 +17,28 @@
   color: #ea82b7;
   font-size: 32px;
   font-weight: bolder;
+  padding: 30px;
+  padding-bottom: 5px;
+}
+
+.card-text1 {
+  padding: 30px;
+  font-size: 18px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#button1 {
+  margin: 15px;
+  margin-top: 0px;
+  margin-left: 30px;
 }
 
 .card-text2 {
   text-align: end;
+  padding-right: 30px;
+  padding-left: 30px;
+  font-size: 18px;
 }
 
 .card-title2 {
@@ -24,6 +46,8 @@
   font-size: 32px;
   font-weight: bolder;
   color: white;
+  padding: 30px;
+  padding-bottom: 0px;
 }
 
 #card2 {
@@ -31,6 +55,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#img2 {
+  margin-right: 15px;
+}
+
+#button2 {
+  margin: 15px;
+  margin-top: 0px;
+  margin-right: 0px;
 }
 
 #card3 {
@@ -42,6 +76,7 @@
 
 .card-text3 {
   text-align: center;
+  font-size: 18px;
 }
 
 .card-title3 {
