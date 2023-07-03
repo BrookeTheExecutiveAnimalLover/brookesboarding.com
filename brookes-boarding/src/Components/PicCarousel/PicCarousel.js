@@ -6,117 +6,133 @@ class PicCarousel extends Component {
   render() {
     return (
       <div>
-        <div class="slider">
+        <div className="slider">
           <div className="slide-track">
             <div className="slide">
               <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png"
-                height="100"
-                width="250"
+                src={require("../../Assets/bleu.jpeg")}
+                height="150"
+                width="150"
                 alt=""
               />
             </div>
             <div className="slide">
               <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png"
-                height="100"
-                width="250"
+                src={require("../../Assets/bruno.jpeg")}
+                height="150"
+                width="150"
                 alt=""
               />
             </div>
             <div className="slide">
               <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png"
-                height="100"
-                width="250"
+                src={require("../../Assets/cleo.jpeg")}
+                height="150"
+                width="150"
                 alt=""
               />
             </div>
             <div clasName="slide">
               <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png"
-                height="100"
-                width="250"
+                src={require("../../Assets/coco.jpeg")}
+                height="150"
+                width="150"
                 alt=""
               />
             </div>
             <div className="slide">
               <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png"
-                height="100"
-                width="250"
+                src={require("../../Assets/dante.jpeg")}
+                height="150"
+                width="150"
                 alt=""
               />
             </div>
             <div className="slide">
               <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png"
-                height="100"
-                width="250"
+                src={require("../../Assets/elvis.jpeg")}
+                height="150"
+                width="150"
                 alt=""
               />
             </div>
             <div className="slide">
               <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png"
-                height="100"
-                width="250"
+                src={require("../../Assets/finn.jpeg")}
+                height="150"
+                width="150"
                 alt=""
               />
             </div>
             <div className="slide">
               <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png"
-                height="100"
-                width="250"
+                src={require("../../Assets/hachi.jpeg")}
+                height="150"
+                width="150"
                 alt=""
               />
             </div>
             <div className="slide">
               <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png"
-                height="100"
-                width="250"
+                src={require("../../Assets/hero.jpeg")}
+                height="150"
+                width="150"
                 alt=""
               />
             </div>
             <div className="slide">
               <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png"
-                height="100"
-                width="250"
+                src={require("../../Assets/jimmy.jpeg")}
+                height="150"
+                width="150"
                 alt=""
               />
             </div>
             <div className="slide">
               <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png"
-                height="100"
-                width="250"
+                src={require("../../Assets/koko2.jpeg")}
+                height="150"
+                width="150"
                 alt=""
               />
             </div>
             <div className="slide">
               <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png"
-                height="100"
-                width="250"
+                src={require("../../Assets/millie.jpeg")}
+                height="150"
+                width="150"
                 alt=""
               />
             </div>
             <div className="slide">
               <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png"
-                height="100"
-                width="250"
+                src={require("../../Assets/rudy.jpeg")}
+                height="150"
+                width="150"
                 alt=""
               />
             </div>
             <div className="slide">
               <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png"
-                height="100"
-                width="250"
+                src={require("../../Assets/ryder.jpeg")}
+                height="150"
+                width="150"
+                alt=""
+              />
+            </div>
+            <div className="slide">
+              <img
+                src={require("../../Assets/tucker.jpeg")}
+                height="150"
+                width="150"
+                alt=""
+              />
+            </div>
+            <div className="slide">
+              <img
+                src={require("../../Assets/vinny.jpeg")}
+                height="150"
+                width="150"
                 alt=""
               />
             </div>
