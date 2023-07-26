@@ -6,12 +6,22 @@ export default function contact() {
   return (
     <>
       <div>
-        <h1 className="title is-1">This is the contact Page</h1>
+        <h1 className="title is-1">Contact Us</h1>
         <p>
-          Class aptent taciti sociosqu ad litora torquent per conubia nostra,
-          per inceptos himenaeos. Vestibulum ante ipsum primis in faucibus orci
-          luctus et ultrices posuere cubilia curae; Duis consequat nulla ac ex
-          consequat, in efficitur arcu congue. Nam fermentum commodo egestas.
+          <i
+            className="fa-regular fa-envelope"
+            style={{ color: "#ea82b7", fontSize: "45px" }}
+          ></i>
+          Email
+          <br></br>brooke@brookesboarding.com
+        </p>
+        <p>
+          <i
+            className="fa-solid fa-mobile-screen-button"
+            style={{ color: "#eb83b7", fontSize: "45px" }}
+          />
+          Text
+          <br></br>(805) 315-3331
         </p>
       </div>
     </>

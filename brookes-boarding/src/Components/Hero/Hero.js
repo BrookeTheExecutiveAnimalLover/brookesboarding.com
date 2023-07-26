@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-
-export default function hero() {
-  return (
-    <>
+import classes from "./Hero.css";
+class Hero extends Component {
+  render() {
+    return (
       <div>
         <div className="hero-full-screen">
           <div className="top-content-section"></div>
@@ -32,6 +32,8 @@ export default function hero() {
           data-magellan-target="main-content-section"
         ></div>
       </div>
-    </>
-  );
+    );
+  }
 }
+
+export default Hero;
