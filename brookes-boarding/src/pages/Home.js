@@ -1,4 +1,7 @@
 import React from "react";
+import Hero from "../Components/Hero/Hero";
+import Content from "../Components/Content/Content";
+import PicCarousel from "../Components/PicCarousel/PicCarousel";
 
 console.log("hitting the home page");
 
@@ -6,13 +9,9 @@ export default function home() {
   return (
     <>
       <div>
-        <h1 className="title is-1">This is the home Page</h1>
-        <p>
-          Class aptent taciti sociosqu ad litora torquent per conubia nostra,
-          per inceptos himenaeos. Vestibulum ante ipsum primis in faucibus orci
-          luctus et ultrices posuere cubilia curae; Duis consequat nulla ac ex
-          consequat, in efficitur arcu congue. Nam fermentum commodo egestas.
-        </p>
+        <Hero></Hero>
+        <Content></Content>
+        <PicCarousel></PicCarousel>
       </div>
     </>
   );

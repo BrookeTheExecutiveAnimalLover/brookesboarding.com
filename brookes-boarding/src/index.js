@@ -12,7 +12,7 @@ import Book from "./pages/Book";
 import Contact from "./pages/Contact";
 import Services from "./pages/Services";
 import Testimonials from "./pages/Testimonials";
-import ParamChild from "./pages/paramChild";
+import Home from "./pages/Home";
 
 const Routing = () => {
   return (
@@ -20,13 +20,14 @@ const Routing = () => {
       <Header />
       <Routes>
         <Route exact path="/" element={App} />
-        <Route path="/:id" element={<ParamChild />} />
-        {/* <Route path="/about" element={About()} />
+        {/* <Route path="/:id" element={<ParamChild />} /> */}
+        <Route path="/home" element={Home()} />
+        <Route path="/about" element={About()} />
         <Route path="/book" element={Book()} />
         <Route path="/contact" element={Contact()} />
         <Route path="/deals" element={Deals()} />
         <Route path="/services" element={Services()} />
-        <Route path="/testimonials" element={Testimonials()} /> */}
+        <Route path="/testimonials" element={Testimonials()} />
       </Routes>
     </Router>
   );

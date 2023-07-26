@@ -8,7 +8,9 @@ export default function header() {
     <>
       <div className="container, g-0">
         <div className="Header">
-          <img src={logo2} height="90%" width="2.8%"></img>
+          <Link to="/home">
+            <img src={logo2} height="35vh" width="35vw"></img>
+          </Link>
           <div className="button-38">
             <Link to="/deals">DEALS</Link>
           </div>

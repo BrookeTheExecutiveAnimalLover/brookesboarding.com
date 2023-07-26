@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import classes from "./Content.css";
 
 class Content extends Component {
@@ -34,9 +35,11 @@ class Content extends Component {
                   they're away, knowing their pets are enjoying a blissful stay.
                 </p>
                 <p className="card-text">
-                  <button id="button1" type="button" className="btn btn-dark">
-                    More about us
-                  </button>
+                  <Link to="/about">
+                    <button id="button1" type="button" className="btn btn-dark">
+                      More about us
+                    </button>
+                  </Link>
                 </p>
               </div>
             </div>
@@ -63,9 +66,11 @@ class Content extends Component {
                   perfect place for your pet's stay.
                 </p>
                 <p className="card-text2">
-                  <button id="button2" type="button" class="btn btn-light">
-                    More testimonials
-                  </button>
+                  <Link to="/testimonials">
+                    <button id="button2" type="button" class="btn btn-light">
+                      More testimonials
+                    </button>
+                  </Link>
                 </p>
               </div>
             </div>
@@ -105,9 +110,11 @@ class Content extends Component {
                   </p>
                 </p>
                 <p className="card-text3">
-                  <button id="button3" type="button" className="btn btn-dark">
-                    More
-                  </button>
+                  <Link to="/services">
+                    <button id="button3" type="button" className="btn btn-dark">
+                      More
+                    </button>
+                  </Link>
                 </p>
               </div>
             </div>
