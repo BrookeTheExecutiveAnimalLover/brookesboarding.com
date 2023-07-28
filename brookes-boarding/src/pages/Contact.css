@@ -1,0 +1,34 @@
+.contact-box {
+  display: flex;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #ea82b870;
+  height: 100vh;
+}
+
+.contact-us {
+  text-align: center;
+}
+
+.surround-box {
+  display: flex;
+  height: 50vh;
+  width: 30vw;
+  background-color: #ffdaed;
+  justify-content: center;
+  align-items: center;
+}
+
+.email-box,
+.text-box {
+  text-align: center;
+}
+
+.get-in-touch {
+  border-bottom: solid;
+  border-width: 2px;
+  border-color: #ea82b7;
+  padding-bottom: 5%;
+  font-weight: bolder;
+}

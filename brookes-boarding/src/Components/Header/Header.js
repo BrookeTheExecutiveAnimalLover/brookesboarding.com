@@ -12,10 +12,14 @@ export default function header() {
             <img src={logo2} height="35vh" width="35vw"></img>
           </Link>
           <div className="button-38">
-            <Link to="/deals">DEALS</Link>
+            <Link to="/deals" style={{ color: "black" }}>
+              DEALS
+            </Link>
           </div>
           <div className="button-38">
-            <Link to="/book">BOOK</Link>
+            <Link to="/book" style={{ color: "black" }}>
+              BOOK
+            </Link>
           </div>
           <div className="Button">
             <Link to="/services">Services</Link>
