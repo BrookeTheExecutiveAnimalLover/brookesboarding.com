@@ -9,22 +9,38 @@ export default function services() {
       <div className="service-box">
         <div className="surround-services-box">
           <div className="services">
-            <h1 className="title is-1 service1">Boarding</h1>
+            <h1 className="title is-1 service1">
+              <i
+                className="fa-solid fa-suitcase"
+                style={{ color: "#ea82b7", fontSize: "45px" }}
+              ></i>
+              <br></br>Boarding
+            </h1>
             <p>
               <div className="boarding-box">
-                Your pets stay overnight in your sitter’s home. They’ll be
-                treated like part of the family in a comfortable environment.
+                Going on vacation without your furry child? <br></br>
+                <br></br>
+                Your pet lives with us overnight in our home and is treated like
+                part of our family!
               </div>
             </p>
           </div>
         </div>
         <div className="surround-services-box">
           <div className="services">
-            <h1 className="title is-1 service1">Daycare</h1>
+            <h1 className="title is-1 service1">
+              <i
+                className="fa-solid fa-sun"
+                style={{ color: "#ea82b7", fontSize: "45px" }}
+              ></i>
+              <br></br>Daycare
+            </h1>
             <p>
               <div className="daycare-box">
-                Your dog spends the day at your sitter’s home. Drop them off in
-                the morning and pick up a happy pup in the evening.
+                Got to spend the day running errands?<br></br>
+                <br></br>
+                You drop off and pick up your pet within the same day...it's
+                like a long hangout!
               </div>
             </p>
           </div>
