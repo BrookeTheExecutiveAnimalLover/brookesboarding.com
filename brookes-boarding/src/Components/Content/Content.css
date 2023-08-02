@@ -28,10 +28,13 @@
   padding-bottom: 5px;
 }
 
-#button1 {
+#button1,
+#button3 {
   margin: 15px;
   margin-top: 0px;
   margin-left: 30px;
+  background-color: #ea82b7;
+  border-color: #ea82b7;
 }
 
 .card-text2 {

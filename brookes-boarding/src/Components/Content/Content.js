@@ -94,10 +94,11 @@ class Content extends Component {
                 <p id="rate-card" className="card-text3">
                   <h5 className="rate-title">Boarding</h5>
                   <p>
-                    Dogs:
+                    <b>Dogs:</b>
                     <br></br>Standard: $65 per night
                     <br></br>Additional Dog: +$50 per dog per night
-                    <br></br>Cats:
+                    <br></br>
+                    <b>Cats:</b>
                     <br></br>Standard: $40 per night
                     <br></br>Additional Cat: +$30 per cat per night
                   </p>
@@ -105,8 +106,13 @@ class Content extends Component {
                   <br></br>
                   <h5 className="rate-title">Daycare</h5>
                   <p>
-                    Standard: $45 per day
-                    <br></br>Additional Dog: +$35 per day
+                    <b>Dogs:</b>
+                    <br></br>Standard: $45 per day
+                    <br></br>Additional Dog: +$35 per day per dog
+                    <br></br>
+                    <b>Cats:</b>
+                    <br></br>Standard: $20 per day
+                    <br></br>Additional Cat: +$10 per day per cat
                   </p>
                 </p>
                 <p className="card-text3">

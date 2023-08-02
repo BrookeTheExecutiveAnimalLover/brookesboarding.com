@@ -12,7 +12,7 @@
 
 .surround-services-box {
   display: flex;
-  height: 50vh;
+  height: auto;
   width: 25vw;
   background-color: #fbfbfd;
   justify-content: center;
@@ -42,4 +42,10 @@
   font-size: 40px;
   padding-top: 8%;
   padding-bottom: 2%;
+}
+
+.seperate {
+  border-bottom: solid;
+  border-color: #ea82b7;
+  margin: 5%;
 }

@@ -19,10 +19,20 @@ export default function services() {
             </h1>
             <p>
               <div className="boarding-box">
-                Going on vacation without your furry child? <br></br>
+                Going on vacay without your furry child? <br></br>
                 <br></br>
                 Your pet lives with us overnight in our home and is treated like
-                part of our family!
+                part of our family!<br></br>
+                <div className="seperate"></div>
+                <p>
+                  <b>Dogs:</b>
+                  <br></br>Standard: $65 per night
+                  <br></br>Additional Dog: +$50 per dog per night
+                  <br></br>
+                  <b>Cats:</b>
+                  <br></br>Standard: $40 per night
+                  <br></br>Additional Cat: +$30 per cat per night
+                </p>
               </div>
             </p>
           </div>
@@ -41,8 +51,18 @@ export default function services() {
                 Have to spend the day running errands?<br></br>
                 <br></br>
                 You drop off and pick up your pet within the same day...it's
-                like a long hangout!
+                like a long hangout!<br></br>
               </div>
+              <div className="seperate"></div>
+              <p>
+                <b>Dogs:</b>
+                <br></br>Standard: $45 per day
+                <br></br>Additional Dog: +$35 per day per dog
+                <br></br>
+                <b>Cats:</b>
+                <br></br>Standard: $20 per day
+                <br></br>Additional Cat: +$10 per day per cat
+              </p>
             </p>
           </div>
         </div>
