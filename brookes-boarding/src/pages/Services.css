@@ -1,4 +1,4 @@
-.contact-box {
+.service-box {
   display: flex;
   height: 80vh;
   justify-content: center;
@@ -7,30 +7,28 @@
   height: 100vh;
 }
 
-.contact-us {
+.services {
   text-align: center;
 }
 
-.surround-box {
+.surround-services-box {
   display: flex;
   height: 50vh;
   width: 30vw;
   background-color: #fbfbfd;
   justify-content: center;
   align-items: center;
+  margin: 20px;
   border-radius: 20px;
 }
 
-.email-box,
+.service-box,
 .text-box {
   text-align: center;
 }
 
-.get-in-touch {
-  border-bottom: solid;
-  border-width: 2px;
-  border-color: #ea82b7;
-  padding-bottom: 5%;
+.service1 {
+  padding: 5%;
   font-weight: bolder;
   color: #ea82b7;
 }

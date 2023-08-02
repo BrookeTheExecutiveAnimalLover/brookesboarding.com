@@ -1,18 +1,34 @@
 import React from "react";
+import classes from "./Services.css";
 
 console.log("hitting the services page");
 
 export default function services() {
   return (
     <>
-      <div>
-        <h1 className="title is-1">This is the services Page</h1>
-        <p>
-          Class aptent taciti sociosqu ad litora torquent per conubia nostra,
-          per inceptos himenaeos. Vestibulum ante ipsum primis in faucibus orci
-          luctus et ultrices posuere cubilia curae; Duis consequat nulla ac ex
-          consequat, in efficitur arcu congue. Nam fermentum commodo egestas.
-        </p>
+      <div className="service-box">
+        <div className="surround-services-box">
+          <div className="services">
+            <h1 className="title is-1 service1">Boarding</h1>
+            <p>
+              <div className="boarding-box">
+                Your pets stay overnight in your sitter’s home. They’ll be
+                treated like part of the family in a comfortable environment.
+              </div>
+            </p>
+          </div>
+        </div>
+        <div className="surround-services-box">
+          <div className="services">
+            <h1 className="title is-1 service1">Daycare</h1>
+            <p>
+              <div className="daycare-box">
+                Your dog spends the day at your sitter’s home. Drop them off in
+                the morning and pick up a happy pup in the evening.
+              </div>
+            </p>
+          </div>
+        </div>
       </div>
     </>
   );
