@@ -6,6 +6,7 @@ console.log("hitting the services page");
 export default function services() {
   return (
     <>
+      <div className="services-title"> Current Services</div>
       <div className="service-box">
         <div className="surround-services-box">
           <div className="services">
@@ -37,7 +38,7 @@ export default function services() {
             </h1>
             <p>
               <div className="daycare-box">
-                Got to spend the day running errands?<br></br>
+                Have to spend the day running errands?<br></br>
                 <br></br>
                 You drop off and pick up your pet within the same day...it's
                 like a long hangout!

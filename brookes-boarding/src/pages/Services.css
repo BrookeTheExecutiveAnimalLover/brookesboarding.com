@@ -1,7 +1,7 @@
 .service-box {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   background-color: #ea82b870;
   height: 100vh;
 }
@@ -30,4 +30,16 @@
   padding: 5%;
   font-weight: bolder;
   color: #ea82b7;
+  font-size: 25px;
+}
+
+.services-title {
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+  color: #ea82b7;
+  background-color: #ea82b870;
+  font-size: 40px;
+  padding-top: 8%;
+  padding-bottom: 2%;
 }

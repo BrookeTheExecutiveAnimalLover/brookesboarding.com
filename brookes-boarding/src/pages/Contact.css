@@ -2,7 +2,7 @@
   display: flex;
   height: 80vh;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   background-color: #ea82b870;
   height: 100vh;
 }
@@ -13,7 +13,7 @@
 
 .surround-box {
   display: flex;
-  height: 50vh;
+  height: 40vh;
   width: 30vw;
   background-color: #fbfbfd;
   justify-content: center;
@@ -26,11 +26,13 @@
   text-align: center;
 }
 
-.get-in-touch {
-  border-bottom: solid;
-  border-width: 2px;
-  border-color: #ea82b7;
-  padding-bottom: 5%;
+.contact-title {
+  display: flex;
+  justify-content: center;
   font-weight: bolder;
   color: #ea82b7;
+  background-color: #ea82b870;
+  font-size: 40px;
+  padding-top: 8%;
+  padding-bottom: 2%;
 }
