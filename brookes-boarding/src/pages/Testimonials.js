@@ -1,19 +1,102 @@
 import React from "react";
+import classes from "./Testimonials.css";
+import PortfolioCard from "../Components/ProjectCards";
 
 console.log("hitting the testimonials page");
 
 export default function testimonials() {
   return (
     <>
-      <div>
-        <h1 className="title is-1">This is the testimonials Page</h1>
-        <p>
-          teeeeeeeeeekff Class aptent taciti sociosqu ad litora torquent per
-          conubia nostra, per inceptos himenaeos. Vestibulum ante ipsum primis
-          in faucibus orci luctus et ultrices posuere cubilia curae; Duis
-          consequat nulla ac ex consequat, in efficitur arcu congue. Nam
-          fermentum commodo egestas.
-        </p>
+      <div className="testimonials-title"> What Our Clients Say</div>
+      <div className="testimonial-box">
+        <div className="surround-testimonials-box">
+          <div className="testimonials">
+            <h1 className="title is-1 testimonial1">
+              <i
+                className="fa-solid fa-suitcase"
+                style={{ color: "#ea82b7", fontSize: "45px" }}
+              ></i>
+              <br></br>Boarding
+            </h1>
+            <p>
+              <div className="boarding-box">
+                <PortfolioCard />
+                Going on vacay without your furry child? <br></br>
+                <br></br>
+                Your pet lives with us overnight in our home and is treated like
+                part of our family!<br></br>
+                <div className="seperate"></div>
+                <p>
+                  <b>Dogs:</b>
+                  <br></br>Standard: $65 per night
+                  <br></br>Additional Dog: +$50 per dog per night
+                  <br></br>
+                  <b>Cats:</b>
+                  <br></br>Standard: $40 per night
+                  <br></br>Additional Cat: +$30 per cat per night
+                </p>
+              </div>
+            </p>
+          </div>
+        </div>
+        <div className="surround-testimonials-box">
+          <div className="testimonials">
+            <h1 className="title is-1 testimonial1">
+              <i
+                className="fa-solid fa-sun"
+                style={{ color: "#ea82b7", fontSize: "45px" }}
+              ></i>
+              <br></br>Daycare
+            </h1>
+            <p>
+              <div className="daycare-box">
+                Have to spend the day running errands?<br></br>
+                <br></br>
+                You drop off and pick up your pet within the same day...it's
+                like a long hangout!<br></br>
+              </div>
+              <div className="seperate"></div>
+              <p>
+                <b>Dogs:</b>
+                <br></br>Standard: $45 per day
+                <br></br>Additional Dog: +$35 per day per dog
+                <br></br>
+                <b>Cats:</b>
+                <br></br>Standard: $20 per day
+                <br></br>Additional Cat: +$10 per day per cat
+              </p>
+            </p>
+          </div>
+        </div>
+        <div className="surround-testimonials-box">
+          <div className="testimonials">
+            <h1 className="title is-1 testimonial1">
+              <i
+                className="fa-solid fa-sun"
+                style={{ color: "#ea82b7", fontSize: "45px" }}
+              ></i>
+              <br></br>Daycare
+            </h1>
+            <p>
+              <div className="daycare-box">
+                Have to spend the day running errands?<br></br>
+                <br></br>
+                You drop off and pick up your pet within the same day...it's
+                like a long hangout!<br></br>
+              </div>
+              <div className="seperate"></div>
+              <p>
+                <b>Dogs:</b>
+                <br></br>Standard: $45 per day
+                <br></br>Additional Dog: +$35 per day per dog
+                <br></br>
+                <b>Cats:</b>
+                <br></br>Standard: $20 per day
+                <br></br>Additional Cat: +$10 per day per cat
+              </p>
+            </p>
+          </div>
+        </div>
       </div>
     </>
   );
