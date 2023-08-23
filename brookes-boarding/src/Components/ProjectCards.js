@@ -5,7 +5,10 @@ import projects from "../pages/projects";
 export default function PortfolioCard() {
   return projects.map((project) => {
     return (
-      <div style={{ display: "inline-flex", justifyContent: "space-between" }}>
+      <div
+        className="surround-testimonials-box"
+        style={{ display: "inline-flex", justifyContent: "space-between" }}
+      >
         <Card
           key={project.uuid}
           style={{
